@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nieuwsbrief | GezondSparen</title>
+    
+    <link rel="icon" href="img/Logo/GSLogoFavicon.png" type="img/png">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Each week there a new deals of fruit and vegetables available on the website.">
+    <meta name="keywords" content="prices, healthy, tips, deals, supermarket">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marilisa Kuilboer, GezondSparen@prototype.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<body>
+    <header>
+        <img src="img/Logo/GSLogo.png" title="Logo GezondSparen" alt="Logo from this website: GezondSparen">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="producten.html">Producten</a></li>
+                <li><a href="FAQ.html">Veelgestelde vragen</a></li>
+                <li><a href="folder.html">Folders</a></li>
+                <li><a id="nieuwsbriefButton"href="nieuwsbrief.html">Nieuwsbrief</a></li>
+                <li><a class="contactButton" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <span class="lineTopBottom"></span>
+    </header>
+<!--img nieuwsbrief-->
+<section id="section1N">
+    <img src="img/nieuwsbrief.png" alt="Picture of a blue mail icon in the center with lines that connect to people" title="Nieuwsbrief">
+</section>
+
+    <section id="section2N">
+        <article>
+            <h1>Geen aanbiedingen missen?</h1>
+            <p>Meld je hier aan om op de hoogte te blijven van de beste deals uit de groente en fruit categorie. Je ontvangt elke week een aangepaste nieuwsbrief.</p>
+        </article>
+    </section>
+    <span class="line"></span>
+    <section id="section3N">
+        <article>
+            <h1>Meld je aan voor de nieuwsbrief</h1>
+            <p>Vul je gegevens hieronder in.</p>
+            
+            <form action="vote.php" method="post">
+                <label for="Fname">Voornaam*</label>
+                <input type="text" placeholder="Uw voornaam" required>
+                <label for="email">Email*</label>
+                <input type="email" placeholder="Naam@gmail.com" required>
+
+            <fieldset>
+                <legend>Supermarkt voorkeur (optioneel):</legend>
+                   
+            <ul>
+                <li>
+                    <input type="checkbox" class="checkbox" name="Lidl"value="lidl">Lidl  
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox" name="Jumbo"value="jumbo">Jumbo
+                </li>
+                <li>
+                     <input type="checkbox" class="checkbox" name="Aldi"value="aldi">Aldi
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox"name="Albert Heijn" value="ah">Albert Heijn
+                </li>
+            </ul>
+            </fieldset>
+
+            <label><input type="checkbox" id="newsletter" name="receiveNewsletter" required>*Ja, ik wil graag de nieuwsbrief van GezondSparen.nl ontvangen.</label>
+            <em required>Door je aan te melden ga je akkoord met onze algemene voorwaarden en ons privacy statement.</em>
+            <button type="submit" name="submit">Aanmelden</button>
+            </form>
+            
+        <aside>
+            <h2>Wat staat er in de nieuwsbrief?</h2>
+            <ul>
+                <li>Geüpdate aanbiedingen van de supermarkten Jumbo, Lidl, Albert Heijn, en Aldi.</li>
+                <li >Een overzicht van de beste aanbiedingen die je in je inbox ontvangt.</li>
+                <li >Links van de nieuwste folders van supermarkten waardoor je echt niets mist!</li>
+                <li >Handige tips om te besparen op je boodschappen</li>
+            </ul>
+        </aside>
+    </section>
+    <span class="line"></span>
+    <section id="section4N">
+        <article>
+            <h3>Nieuwsbrief liever niet meer ontvangen?</h3>
+            <p  >Ga dan naar je laatst ontvangen nieuwsbrief en klik helemaal onderaan op de link ‘afmelden’. Volg vervolgens de stappen op het scherm. Je bent nu afgemeld.</p>
+        </article>
+    </section>
+
+    <footer>
+        <span class="lineTopBottom"></span>
+        <aside><img src="img/Logo/GSLogo.png" title="Logo GezondSparen" alt="Logo from this website: GezondSparen"></aside>
+        <ul>
+            <li><a href="contact.html"><strong>Contact</strong></a></li>
+            <li><a href="home.html"><strong>Home</strong></a></li>
+            <li><a href="folder.html"><strong>Folders</strong></a></li>
+            <li><strong>Blijf op de hoogte!</strong></li>
+        </ul>  
+        <ul>
+            <li>
+                <li><a href="producten.html"><strong>Producten</strong> </a></li>
+                <li><a href="FAQ.html"><strong>Veelgestelde vragen</strong> </a></li>
+                <li><a class="nieuwsbriefFooter" href="nieuwsbrief.html">Meld je aan voor de nieuwsbrief</a></li>
+            </li>
+        </ul>
+        <p><em>Disclaimer: Prijzen en aanbiedingen zijn afhankelijk van wijzigingen</em></p>
+        &copy;2024 GezondSparen. Alle rechten voorbehouden
+    </footer>
+</body>
+</html>

@@ -1,0 +1,1025 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 768px)
+{nav{display: none;}
+}
+
+.cookies{
+    background-color: #00A190;
+    position: fixed;
+    padding: 15px;
+    bottom: 30px;
+    left: 30px;
+    border: 2px solid #005260;
+    z-index: 9999;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: #FFFFFF;
+}
+.acceptCookies{
+    margin-left: 25%;
+    margin-top: 4%;
+    background-color: #F6F4F4;
+    padding: 1%;
+    text-decoration: none;
+    border-style: double;
+    border-width: 5px;
+    text-transform: uppercase;
+}
+.declineCookies{
+    margin-left: 5%;
+    background-color: #F6F4F4;
+    padding: 1%;
+    text-decoration: none;
+    border-style: double;
+    border-width: 5px;
+    text-transform: uppercase;
+}
+
+/*fonts-style*/
+p{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-bold{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+/*Font-size*/
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2rem;
+}
+.smallText{
+    font-size: 0.8125rem;
+}
+.regularText{
+    font-size: 1rem;
+}
+.largeText{
+    font-size: 1.25rem;
+}
+/*every p*/
+p{
+    line-height: 1.6;
+}
+p, h1, h2, h3, h4, li{
+    word-spacing: normal;
+    color: #373737;
+}
+
+/*Line*/
+.line{
+    display: block;
+    width: 80%;
+    height: 1.5px;
+    background-color:#CBCBCB;
+    margin: 2%;
+    margin-left: 10%;
+}
+.lineTopBottom{
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background-color:#CBCBCB;
+    margin: 0;
+}
+/*navigation bar*/
+header img{
+    width: 7%;
+    height: auto; 
+    margin: 10px;  
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    padding: 15px;
+}
+nav ul li {
+    margin: 5px;
+    padding: 0;
+    display: inline;
+}
+ul li a{
+    text-decoration: none; /*Haalt streep onder link weg*/
+    color: inherit;
+    padding: 10px 15px;
+}
+
+
+/*nav color*/
+nav a:hover{
+    background-color: #E2E2E2;  
+    border-radius: 8px;
+}
+.contactButton{
+    background-color: #00766A;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 10px 40px;
+    margin-left: 40px;
+}
+#homeButton{
+    background-color: #005260;
+    color: #ffffff;
+    border-radius: 8px;
+}
+#productenButton{
+    background-color: #005260;
+    color: #ffffff;
+    border-radius: 8px;
+}
+#faqButton{
+    background-color: #005260;
+    color: #ffffff;
+    border-radius: 8px;
+}
+#foldersButton{
+    background-color: #005260;
+    color: #ffffff;
+    border-radius: 8px;
+}
+#nieuwsbriefButton{
+    background-color: #005260;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+/*footer*/
+footer >aside> img{
+    width: 7%;
+    height: auto; 
+    margin: 10px;
+    display: flex;
+}
+footer > ul{
+    right: 0;
+    margin: 20px;
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+footer > ul > li{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    max-width: 200px;
+    display: inline;
+}
+.nieuwsbriefFooter{
+    text-decoration: underline;
+}
+
+
+
+/*Home*/
+#section1H {
+    position: relative;
+    text-align: center;
+}
+#section1H img{
+    width: 100%;
+    max-height: 700px;
+    opacity: 0.50;
+}
+#section1H article{
+    position: absolute;
+    top: 31%;
+    left: 34%;
+    max-width: 562px;
+}
+#section1H article h1{
+    margin-bottom: 35px;
+}
+#section1H article p{
+    letter-spacing: normal;
+    padding-bottom: 5%;
+}
+
+/*Home en producten page*/
+.textprod{
+    margin-left: 7%;
+}
+#section2H{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#section2H li{
+    list-style: none;
+}
+#section2H article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+#section3P article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 4%;
+}
+#section5P article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 4%;
+}
+.articleProducts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border: 1.5px solid #D9D9D9;
+    border-radius: 8px;
+    background-color: #FDFCFC;
+    padding: 2%;
+    width: 370.33px;
+    height: 430px;
+    overflow: hidden;
+}
+.prices{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.prices li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.prices li p{
+    flex: 1; /*prices are underneath eachother*/
+}
+.cheaper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.cheaperProduct{
+    max-width: 200px;
+    display: flex;
+    justify-items: end;
+    margin-top: 5%;
+}
+/*img*/
+#apple{
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lemon{
+    max-width: 272px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#kiwi{
+    max-width: 159px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#pineapple{
+    max-width: 305px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mango{
+    max-width: 200px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cucumber{
+    max-width: 248px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.patato{
+    max-width: 269px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tomato{
+    max-width: 180px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#redOnion{
+    max-width: 146px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#carrot{
+    max-width: 174px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section3H img{
+    width: 484px;
+    height: auto;
+}
+#section3H{
+    display: block;
+    background-color: #FFD2C2;
+    width: 100%;
+    overflow: hidden ;
+
+    display: flex;
+
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#home3{
+    display: block;
+    background-color: #FFF0EB;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+#section3H article h4{
+    padding-bottom: 5%;
+}
+#section3H article ul li{
+    margin-bottom: 2%;
+}
+#section3H aside img{
+    max-width: 536px;
+    max-height: auto;
+    margin-top: 2%;
+    opacity: 0.80;
+}
+#tips{
+    max-width: 484px;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+#section4H{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+#section4H article h3{
+    margin-bottom: 2%;
+}
+#section4H article p{
+    max-width: 850px;
+    max-height: auto;
+    margin-bottom: 5%;   
+}
+/*table*/
+
+
+#section4H table{
+    background-color: #005260;
+    line-height: 1.6;
+}
+#section4H table{
+    max-width: 841px;
+    height: 326px;
+}
+#th{
+    background-color: #FFD2C2;
+    text-align: center;
+}
+#section4H td{
+    background-color: #FFF0EB;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #;
+}
+#thS{
+    width: 150px;
+}
+#thG{
+    width: 236px;
+}
+#thF{
+    width: 233px;
+}
+#thB{
+    width: 222px;
+}
+
+/*Producten*/
+#section1P article{
+    display: flex;  
+    flex-direction: column; /*header stands above p*/
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+#section1P p{
+    text-align: center;
+    padding-bottom:20px;
+    max-width: 865px;
+}
+#section1P h1{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section1P{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section2P {
+    position: relative;
+    text-align: center;
+}
+#section2P img{
+    width: 100%;
+    max-height: 429px;
+    opacity: 0.50; 
+}
+#section2P article{
+    position:absolute;
+    bottom: 50%;
+    left: auto;
+    right: 45%;
+}
+#section4P {
+    position: relative;
+    text-align: center;
+}
+#section4P img{
+    width: 100%;
+    max-height: 429px;
+    opacity: 0.50;
+}
+#section4P article{
+    position:absolute;
+    bottom: 50%;
+    left: 45%;
+}
+#section6 article{
+    display: flex;  
+    flex-direction: column; /*header komt onder p te staan*/
+    align-items: center;
+}
+#section6P p{
+    max-width: 865px;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+#section6P h3{
+    padding-bottom: 25px;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+#section6P{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section6P article{
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+
+/*FAQ*/
+#section1V{
+    display: flex;
+    justify-content: center;
+}
+#section1V img{
+    width: 80%;
+}
+#H1vv{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+    background-color: #FFD2C2;
+    border-style: solid;
+    border-color: #CBCBCB;
+}
+#FAQ{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 49px;
+    padding-bottom: 60px;
+    background-color: #FFF0EB;
+    border-style: solid;
+    border-color: #CBCBCB;
+}
+#FAQ h2 {
+    margin-top: 48px;
+    margin-bottom: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-indent: none;
+}
+.largeText strong{
+    line-height: 2;
+    padding-top: 50px;
+}
+#FAQ p{
+    margin-left: 12%;
+    margin-right: 12%;
+    max-width: 1300px;
+}
+#section3V article{
+    display: flex;  
+    flex-direction: column; /*header komt onder p te staan*/
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+#section3V p{
+    text-align: center;
+    padding-bottom:20px;
+    max-width: 865px;
+}
+#section3V h3{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section3V{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+/*Folder*/
+#section1F article{
+    display: flex;  
+    flex-direction: column; /*header komt onder p te staan*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#section1F p{
+    padding-bottom:20px;
+    max-width: 865px;
+}
+#section1F h1{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section1F article figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+figure a{
+    text-decoration: none;
+}
+#section1F{
+    margin: 20px ;
+}
+#folderAH{
+    max-width: 270px;
+    max-height: 542px;
+    margin: 34px;
+    text-decoration: none;
+}
+#folderAH:hover .img{
+    opacity: 0.60;
+}
+#folderL{
+    max-width: 345px;
+    max-height: 435px;
+    margin: 34px;
+}
+#folderJ{
+    max-width: 332px;
+    max-height: 435px;
+    margin: 34px;
+}
+#folderA{
+    max-width: 270px;
+    max-height: 524px;
+    margin: 34px;
+}
+#section2F article{
+    display: flex;  
+    flex-direction: column; /*header stands above p*/
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+#section2F p{
+    text-align: center;
+    padding-bottom:20px;
+    max-width: 865px;
+}
+#section2F h1{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section2F{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section2F article h3{
+    margin-bottom: 20px;
+}
+
+/*logo supermarket*/
+#section3F{
+    margin: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#section3F article h2{
+    margin: 2%;
+}
+#section3F article p{
+    max-width: 688px;
+    max-height: auto;
+    margin: 3% 25%;
+
+}
+#logoAH{
+    max-width: 259px;
+    max-height: 248px;
+    margin-right: -70px;
+}
+#logoL{
+    max-height: 259px;
+    max-width: auto;
+    margin-right: -70px;
+}
+#logoJ{
+    max-width: 259px;
+    max-height: 248px;
+    margin-right: 30px;
+}
+#logoA{ 
+    max-width: 259px;
+    max-height: 248px;
+}
+#section3F article a {
+    text-decoration: none;
+}
+#section4F article{
+    display: flex;  
+    flex-direction: column; /*header stands above p*/
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+#section4F p{
+    text-align: center;
+    padding-bottom:20px;
+    max-width: 865px;
+}
+#section4F h1{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section4F{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section4F article h3{
+    margin-bottom: 20px;
+}
+/*Nieuwsbrief*/
+#section1N{
+    display: flex;
+    justify-content: center;
+}
+#section1N img{
+    width: 100%;
+    max-height: 670px;
+}
+#section2N article{
+    display: flex;  
+    flex-direction: column; /*header stands above p*/
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+#section2N p{
+    text-align: center;
+    padding-bottom:20px;
+    max-width: 865px;
+}
+#section2N h1{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section2N{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section2N article h3{
+    margin-bottom: 20px;
+}
+/*form*/
+#section3N form{
+    max-width: 687px;
+    max-height: 669px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F6F4F4;
+    padding: 3% 2% 5% 4%;
+    margin: 4%;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #373737;
+}
+label{
+    gap: 5px;
+}
+form input[type="text"], input[type="email"], input[type="tel"]{
+    margin-bottom: 4%;
+}
+input[type=text], input[type=email], input[type="tel"], textarea{
+    padding: 12px;
+    border: 1.5px;
+    border-style: solid;
+    border-color: #E2E2E2;
+    border-radius: 8px;
+    width: 60%;
+}
+fieldset{
+    border: none;
+    margin-top: 20px;
+}
+fieldset legend{
+    margin-top: 1%;
+    margin-bottom: 3px;
+}
+form fieldset ul li{
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input [type="checkbox"]{
+    display: none;
+    max-width: 30px;
+    max-height: 30px;
+    cursor: pointer;
+    gap: 9px;
+}
+form em{
+    font-size: 0.8125rem;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+button[type=submit]{
+    background-color: #00766A;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 1%;
+    max-width: 140px;
+    max-height: 90px;
+}
+input[type=submit]:hover{
+    background-color: #00A190;
+    cursor: pointer;
+}
+#section3N{
+    display: flex;
+    justify-content: row;
+    padding: 30px;
+    width: 100%;
+}
+#section3N article{
+    display: flex;  
+    flex-direction: column; 
+    align-items: left;
+    justify-content: left;
+}
+#section3N p{
+    text-align: start;
+    padding-bottom:20px;
+}
+
+#section3N article h2{
+    max-width: 416px;
+    margin-bottom: 20px;
+}
+#section3N aside{
+    max-width: 865px;
+    display: flex;
+    flex-direction: column; 
+    align-items: right;
+    justify-content: right;
+}
+
+#section4N article{
+    display: flex;  
+    flex-direction: column; /*header stands above p*/
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+#section4N p{
+    text-align: center;
+    padding-bottom:20px;
+    max-width: 865px;
+}
+#section4N h1{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section4N{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section4N article h3{
+    margin-bottom: 20px;
+}
+
+/*Contact*/
+#section1C p{
+    padding-bottom:20px;
+    max-width: 484px;
+}
+#section1C h1{
+    padding-bottom: 25px;
+}
+#section1C{
+    display: block;
+    background-color: #FFD2C2;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#contact1{
+    display: block;
+    background-color: #FFF0EB;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+#section1C article h3{
+    margin-bottom: 20px;
+}
+#section1C aside img{
+    max-width: 536px;
+    max-height: auto;
+    margin-top: 2%;
+}
+/*form*/
+#section2C form{
+    max-width: 849px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F6F4F4;
+    padding: 3% 5% 5% 5%;
+    margin: 8% auto 8% auto ;
+    border: 2px solid #E2E2E2;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #373737;
+    font-size: large;
+}
+#section2C form legend{
+    text-align: center;
+    margin-bottom: 9%;
+}
+form ul li{
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+form ul{
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+textarea{
+    margin-bottom: 5%;
+    resize: vertical;
+    max-height: 110px;
+    min-height: 50px;
+}
+#section3C article{
+    display: flex;  
+    flex-direction: column; /*header stands above p*/
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF0EB;
+    max-width: auto;
+    padding: 35px;
+}
+#section3C p{
+    text-align: center;
+    padding-bottom:20px;
+    max-width: 865px;
+}
+#section3C h1{
+    padding-bottom: 25px;
+    text-align: center;
+}
+#section3C{
+    display: block;
+    background-color: #FFD2C2;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#section3C article h3{
+    margin-bottom: 20px;
+}
+
+
