@@ -206,6 +206,10 @@ footer > ul > li{
     left: 34%;
     max-width: 562px;
 }
+h1::first-letter{
+    font-size: 200%;
+    color: #005260;
+}
 #section1H article h1{
     margin-bottom: 35px;
 }
@@ -440,11 +444,15 @@ footer > ul > li{
     text-align: center;
 }
 #section4H td{
-    background-color: #FFF0EB;
+
     text-align: center;
 }
 tr:nth-child(even){
-    background-color: #;
+    background-color: #FFF0EB;
+}
+
+tr:nth-child(odd){
+    background-color: #FFF6F6;
 }
 #thS{
     width: 150px;
