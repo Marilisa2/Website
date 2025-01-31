@@ -1,17 +1,14 @@
 Student name: Marilisa Kuilboer
 Student number: 732478
 Student class: HAINF24VT1B
-GitHub Repository: https:https://github.com/Marilisa2/GezondSparen-website
+
+
+GitHub Repository: https://github.com/Marilisa2/Website
 
 GitHub Pages URL: 
-- https://github.com/Marilisa2/GezondSparen-website/commit/c35fb6cf33dc6ff15e7ac9aa628307527bf26866#diff-2dc263163e26ccd810a19c077de54e2a40bc0ef590448332fc006dd61396280c
-
-- https://github.com/Marilisa2/GezondSparen-website/commit/c35fb6cf33dc6ff15e7ac9aa628307527bf26866#diff-b212bbf12b1cf00fb94f5e7647e11bcdc041476dedf8ec0b8f0b689fcb4f8e97
-
-- https://github.com/Marilisa2/GezondSparen-website/commit/c35fb6cf33dc6ff15e7ac9aa628307527bf26866#diff-86b0d81a41b6a450ea10f287eb1c7c29684a5c5fb3da2ad7d82b19d113d4c651
-
-- https://github.com/Marilisa2/GezondSparen-website/commit/c35fb6cf33dc6ff15e7ac9aa628307527bf26866#diff-246d8ef3f8bc0fed12bc8191e09f65b302c2e34de32fe4d6a77f35a61f6198c8
-
-- https://github.com/Marilisa2/GezondSparen-website/commit/c35fb6cf33dc6ff15e7ac9aa628307527bf26866#diff-90ef731ab7214ca5179a80a2898ae98c5e333d15dcfc167bcd3082358ce985bf
-
-- https://github.com/Marilisa2/GezondSparen-website/commit/c35fb6cf33dc6ff15e7ac9aa628307527bf26866#diff-3dfca4ff92101b76726ef159b37d2a27170a40a1e731f13c5f430a13eaa94f13
+- https://github.com/Marilisa2/Website/blob/main/FAQ.html
+- https://github.com/Marilisa2/Website/blob/main/contact.html
+- https://github.com/Marilisa2/Website/blob/main/folder.html
+- https://github.com/Marilisa2/Website/blob/main/index.html
+- https://github.com/Marilisa2/Website/blob/main/nieuwsbrief.html
+- https://github.com/Marilisa2/Website/blob/main/producten.html
